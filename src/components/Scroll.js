@@ -1,17 +1,17 @@
-import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
 
 const Scroll = (props) => {
-    const style = {
-        overflowY: 'scroll',
-        border: '1.5px solid black',
-        height: '800px'
-    }
-    return (
-        <div style = {style}>
-            {props.children};
-        </div> 
-    )
+  const style = {
+    overflowY: 'scroll',
+    border: '1.5px solid black',
+    height: '800px'
+  }
+  return (
+    <div style = {style}>
+      {props.children};
+    </div>
+  )
+}
 
-};
-
-export default Scroll;
+export default Scroll
